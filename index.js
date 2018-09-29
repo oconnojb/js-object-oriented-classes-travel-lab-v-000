@@ -27,8 +27,8 @@ class Route {
     const endingAve = this.endingLocation.horizontal;
     console.log(beginningAve, " ", endingAve)
 
-    const streetsTravelled = Math.abs(endingStreet - beginningStreet);
-    console.log("s: ",streetsTravelled)
+    const sTrav = Math.abs(endingStreet - beginningStreet);
+    console.log("s: ",sTrav);
 
     let begAveNum;
     let endAveNum;
@@ -36,16 +36,15 @@ class Route {
     for (i = 0; i < 7; i++) {
         if (beginningAve == eastWest[i]) {
           begAveNum = i;
-          console.log("i: ", begAveNum)
+          console.log("i: ", begAveNum);
         }
         if (endingAve == eastWest[i]) {
           endAveNum = i;
-          console.log("i2: ", endAveNum)
+          console.log("i2: ", endAveNum);
         }
     }
 
-    console.log("end");
-
-    console.log(endAveNum)
+    const avTrav = Math.abs(endAveNum - begAveNum)
+    console.log(avTrav)
   }
 }
