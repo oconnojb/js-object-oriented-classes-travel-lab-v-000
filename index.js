@@ -25,6 +25,7 @@ class Route {
     const beginningAve = this.beginningLocation.horizontal;
     const endingStreet = this.endingLocation.vertical;
     const endingAve = this.endingLocation.horizontal;
+    console.log(endingAve)
 
     const streetsTravelled = Math.abs(endingStreet - beginningStreet);
 
