@@ -44,7 +44,8 @@ class Route {
         }
     }
 
-    const avTrav = Math.abs(endAveNum - begAveNum)
-    console.log(avTrav+sTrav)
+    const avTrav = Math.abs(endAveNum - begAveNum);
+    console.log(avTrav+sTrav);
+    return avTrav + sTrav;
   }
 }
