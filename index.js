@@ -20,15 +20,13 @@ class Route {
 
   blocksTravelled() {
     let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue'];
-    console.log(eastWest)
+    
     const beginningStreet = this.beginningLocation.vertical;
     const beginningAve = this.beginningLocation.horizontal;
     const endingStreet = this.endingLocation.vertical;
     const endingAve = this.endingLocation.horizontal;
-    console.log(beginningAve, " ", endingAve)
 
     const sTrav = Math.abs(endingStreet - beginningStreet);
-    console.log("s: ",sTrav);
 
     let begAveNum;
     let endAveNum;
@@ -36,16 +34,13 @@ class Route {
     for (i = 0; i < 7; i++) {
         if (beginningAve == eastWest[i]) {
           begAveNum = i;
-          console.log("i: ", begAveNum);
         }
         if (endingAve == eastWest[i]) {
           endAveNum = i;
-          console.log("i2: ", endAveNum);
         }
     }
 
     const avTrav = Math.abs(endAveNum - begAveNum);
-    console.log(avTrav+sTrav);
     return avTrav + sTrav;
   }
 }
