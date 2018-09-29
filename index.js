@@ -43,4 +43,13 @@ class Route {
     const avTrav = Math.abs(endAveNum - begAveNum);
     return avTrav + sTrav;
   }
+
+  estimatedTime(bool = false){
+    const trav = this.blocksTravelled()
+    if (bool) {
+      return trav/2;
+    } else {
+      return trav/3;
+    }
+  }
 }
