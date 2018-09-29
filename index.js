@@ -45,6 +45,6 @@ class Route {
     }
 
     const avTrav = Math.abs(endAveNum - begAveNum)
-    console.log(avTrav)
+    console.log(avTrav+sTrav)
   }
 }
