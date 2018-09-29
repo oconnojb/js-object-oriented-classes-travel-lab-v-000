@@ -41,9 +41,6 @@ class Route {
         }
     }
 
-    const aveTravelled = Math.abs(endAveNum - begAveNum);
-    console.log("begAveNum: " + begAveNum);
-    console.console.log("endAveNum: " + endAveNum);
-    return streetsTravelled + aveTravelled;
+    console.log("end")
   }
 }
