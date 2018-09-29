@@ -42,7 +42,7 @@ class Route {
     }
 
     console.log("end");
-    const AveTrav = endAveNum
-    console.log(AveTrav)
+
+    console.log(endAveNum)
   }
 }
