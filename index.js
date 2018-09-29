@@ -11,3 +11,11 @@ class Driver {
     return argYear - driverYear;
   }
 }
+
+class Route {
+  constructor(beginningLocation, endingLocation) {
+    this.beginningLocation = beginningLocation;
+    this.endingLocation = endingLocation;
+    conslole.log(this.beginningLocation);
+  }
+}
