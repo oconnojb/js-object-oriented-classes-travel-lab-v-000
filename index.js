@@ -37,6 +37,7 @@ class Route {
         }
         if (endingAve == eastWest[i]) {
           const endAveNum = i;
+          console.log("i2: ", endAveNum)
         }
     }
 
