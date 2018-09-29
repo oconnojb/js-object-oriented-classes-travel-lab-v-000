@@ -33,7 +33,7 @@ class Route {
     for (i = 0; i < 7; i++) {
         if (beginningAve == eastWest[i]) {
           const begAveNum = i;
-          console.log("i: "i)
+          console.log("i: ", i)
         }
         if (endingAve == eastWest[i]) {
           const endAveNum = i;
