@@ -41,6 +41,8 @@ class Route {
         }
     }
 
-    console.log("end")
+    console.log("end");
+    const AveTrav = Math.abs(endAveNum - begAveNum);
+    console.log(AveTrav)
   }
 }
