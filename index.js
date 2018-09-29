@@ -28,7 +28,7 @@ class Route {
     const streetsTravelled = Math.abs(endingStreet - beginningStreet);
 
     var i;
-    for (i = 0; i < eastWest.length; i++) { 
+    for (i = 0; i < eastWest.length; i++) {
         if (beginningAve == eastWest[i]) {
           const begAveNum = i;
         }
@@ -38,6 +38,8 @@ class Route {
     }
 
     const aveTravelled = Math.abs(endAveNum - begAveNum);
+    console.log("begAveNum: " + begAveNum);
+    console.console.log("endAveNum: " endAveNum);
     return streetsTravelled + aveTravelled;
   }
 }
