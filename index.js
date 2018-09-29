@@ -33,11 +33,11 @@ class Route {
     for (i = 0; i < 7; i++) {
         if (beginningAve == eastWest[i]) {
           const begAveNum = i;
+          console.log(i)
         }
         if (endingAve == eastWest[i]) {
           const endAveNum = i;
         }
-        console.log(i)
     }
 
     const aveTravelled = Math.abs(endAveNum - begAveNum);
