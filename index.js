@@ -42,7 +42,7 @@ class Route {
     }
 
     console.log("end");
-    const AveTrav = Math.abs(endAveNum);
+    const AveTrav = endAveNum
     console.log(AveTrav)
   }
 }
